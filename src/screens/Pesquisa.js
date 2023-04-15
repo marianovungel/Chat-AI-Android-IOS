@@ -6,7 +6,7 @@ import Card from '../components/Card'
 
 const Pesquisa = () => {
   return (
-    <View className="mt-6 bg-black w-full h-full">
+    <View className=" bg-black w-full h-full">
         <View className="mx-4 h-full">
             <View className="w-full my-8 flex-row">
                 <TextInput

@@ -1,9 +1,10 @@
-import { View, Text, Button, TouchableOpacity, Image } from 'react-native'
+import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
+
 
 const Home = () => {
   return (
-    <View className="mt-6 bg-black w-full h-full">
+    <View className=" bg-black w-full h-full">
       <View className="mx-4 h-full">
         <TouchableOpacity className="bg-neutral-700 mt-16 w-14 h-10 flex items-center justify-center rounded-xl">
             <Text className="text-white text-2x font-bold">Skip</Text>
@@ -29,6 +30,7 @@ const Home = () => {
                 <View className="w-4 h-4 rounded-full border-2 border-stone-300"></View>
             </View>
         </View>
+        
         <TouchableOpacity className="w-full bg-slate-100 h-14 rounded-xl flex justify-center items-center mt-10">
             <Text className="font-bold text-lg">Get Strated</Text>
         </TouchableOpacity>
